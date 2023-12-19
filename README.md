@@ -4,14 +4,14 @@ Tugas
 1. membuat ENkripsi sederhana dengan cmd
 syarat :  pastikan untuk menyiapkan folder/file untuk dikunci(enkripsi sederhana) misal,seperti di bawah
 ![Alt text](image.png)
-##a. Klik tombol Windows + R secara bersamaan untuk membuka CMD.
-##b. Setelah jendela CMD terbuka, 
+#a. Klik tombol Windows + R secara bersamaan untuk membuka CMD.
+#b. Setelah jendela CMD terbuka, 
 ##c. masuk ke address yang menyimpan folder yang ingin kamu kunci. Misalnya, folder berada di directory D, maka lakukan perintah D:
 Ketikkan perintah cacls [nama folder] /p everyone:n, dan ganti [nama folder] dengan nama folder yang ingin kamu kunci.
 ##d. Sementara untuk mengganti folder supaya bisa di akses kembali, ganti n dengan f.
 
 ##Langkah Lagkah
-##1. window + R dan ketikan (cmd)
+#1. window + R dan ketikan (cmd)
 ![Alt text](image-1.png)
 ![Alt text](image-3.png)
 2.copy address untuk di enkripsi
