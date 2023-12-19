@@ -43,7 +43,7 @@ Hasil :
 
 
 3. Membuka kembali enkripsi sederhana
-4. 
+   
 ![Alt text](image-7.png)
 
 #cukup ganti n dengan f, dan ketik Y dan tunggu tampilan seperti di bawah
