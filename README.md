@@ -56,3 +56,11 @@ Kodingan
 cacls C:\Users\User\OneDrive\Documents\cobain-tugasmatkulenkripsiCMD /p everyone:n
 
 cacls C:\Users\User\OneDrive\Documents\cobain-tugasmatkulenkripsiCMD /p everyone:f
+
+
+
+
+#Tugas2
+
+    var correctUsername = 'user123';
+    var correctPassword = 'pass123';
