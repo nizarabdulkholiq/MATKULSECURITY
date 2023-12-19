@@ -3,6 +3,7 @@
 Tugas 
 1. membuat ENkripsi sederhana dengan cmd
 syarat :  pastikan untuk menyiapkan folder/file untuk dikunci(enkripsi sederhana) misal,seperti di bawah
+
 ![Alt text](image.png)
 
 a. Klik tombol Windows + R secara bersamaan untuk membuka CMD.
