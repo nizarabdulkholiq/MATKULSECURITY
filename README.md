@@ -59,6 +59,15 @@ cacls C:\Users\User\OneDrive\Documents\cobain-tugasmatkulenkripsiCMD /p everyone
 
 
 
+cara ke 2
+
+attrib +h "C:\Users\ASUS M WILLIAM FARMA\OneDrive\Documents\enkripsimatkul"
+
+attrib -h "C:\Users\ASUS M WILLIAM FARMA\OneDrive\Documents\enkripsimatkul"
+
+
+
+
 
 #Tugas2
 
