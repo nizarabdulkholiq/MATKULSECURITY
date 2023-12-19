@@ -72,13 +72,13 @@
   
       // Periksa apakah input sesuai atau tidak
       if (username === correctUsername && password === correctPassword) {
-        message.innerHTML = 'Login successful!';
+        message.innerHTML = 'Login success!';
         message.style.color = 'green';
   
         // Redirect ke halaman dashboard.html setelah login berhasil
         window.location.href = 'dashboard.html';
       } else {
-        message.innerHTML = 'Invalid username or password. Please try again.';
+        message.innerHTML = 'Salah username or password. Silahkan dicoba kembali.';
         message.style.color = 'red';
       }
     }
