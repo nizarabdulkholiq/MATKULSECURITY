@@ -18,26 +18,41 @@ d. Sementara untuk mengganti folder supaya bisa di akses kembali, ganti n dengan
 Langkah Lagkah
 
 1. window + R dan ketikan (cmd)
+   
 ![Alt text](image-1.png)
+
 ![Alt text](image-3.png)
 
 2.copy address untuk di enkripsi
+
 ![Alt text](image-2.png)
 
 3.masukan seperti dibawah
+
 ![Alt text](image-4.png)
 
 ketika sudah ada pilihan Y/N, ketik Y untuk mengunci folder
 
 maka folder akan otomatis terkunci setelah adatampilan 
+
 ![Alt text](image-5.png)
 
 Hasil :
+
 ![Alt text](image-6.png)
 
 
-3. Membuka kembali enkripsi sederhana 
+3. Membuka kembali enkripsi sederhana
+4. 
 ![Alt text](image-7.png)
 
 #cukup ganti n dengan f, dan ketik Y dan tunggu tampilan seperti di bawah
+
 ![Alt text](image-8.png)
+
+
+Kodingan 
+
+cacls C:\Users\User\OneDrive\Documents\cobain-tugasmatkulenkripsiCMD /p everyone:n
+
+cacls C:\Users\User\OneDrive\Documents\cobain-tugasmatkulenkripsiCMD /p everyone:f
