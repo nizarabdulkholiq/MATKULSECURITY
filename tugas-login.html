@@ -61,25 +61,29 @@
 </div>
 
 <script>
-  function checkLogin() {
-    var username = document.getElementById('username').value;
-    var password = document.getElementById('password').value;
-    var message = document.getElementById('login-message');
-
-    // Contoh username dan password yang benar
-    var correctUsername = 'user123';
-    var correctPassword = 'pass123';
-
-    // Periksa apakah input sesuai atau tidak
-    if (username === correctUsername && password === correctPassword) {
-      message.innerHTML = 'Login successful!';
-      message.style.color = 'green';
-    } else {
-      message.innerHTML = 'Invalid username or password. Please try again.';
-      message.style.color = 'red';
+    function checkLogin() {
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+      var message = document.getElementById('login-message');
+  
+      // Contoh username dan password yang benar
+      var correctUsername = 'user123';
+      var correctPassword = 'pass123';
+  
+      // Periksa apakah input sesuai atau tidak
+      if (username === correctUsername && password === correctPassword) {
+        message.innerHTML = 'Login successful!';
+        message.style.color = 'green';
+  
+        // Redirect ke halaman dashboard.html setelah login berhasil
+        window.location.href = 'dashboard.html';
+      } else {
+        message.innerHTML = 'Invalid username or password. Please try again.';
+        message.style.color = 'red';
+      }
     }
-  }
-</script>
+  </script>
+
 
 </body>
 </html>
