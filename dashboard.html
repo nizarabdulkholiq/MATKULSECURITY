@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    #dashboard-container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #login-message {
+      color: green;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="dashboard-container">
+  <h2>Dashboard</h2>
+  <div id="login-message">Login successful!</div>
+</div>
+
+<script>
+  // Simulasi bahwa pengguna telah login (gunakan nilai sesuai kebutuhan)
+  var isLoggedIn = true;
+
+  // Ambil elemen pesan login
+  var loginMessage = document.getElementById('login-message');
+
+  // Periksa apakah pengguna telah login atau tidak
+  if (isLoggedIn) {
+    // Jika login berhasil, tampilkan pesan
+    loginMessage.innerHTML = 'Login successful!';
+    loginMessage.style.color = 'green';
+  } else {
+    // Jika pengguna belum login, mungkin alihkan ke halaman login atau lakukan tindakan lain
+    loginMessage.innerHTML = 'You are not logged in. Please log in first.';
+    loginMessage.style.color = 'red';
+  }
+</script>
+
+</body>
+</html>
